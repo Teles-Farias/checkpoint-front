@@ -1,10 +1,129 @@
+
 *{
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
-}
-body{
-    margin:0px;
-    padding:0px;
-}
-ul{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    text-decoration: none;
     list-style: none;
+    
+}
+@media (max-width:420px){
+    body{
+        height: 3374px;
+    }
+
+    header{
+        width: 100%;
+        height: 34.7rem;
+        background-color: grey;
+
+    }
+    main{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .nav-footer{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 2.5rem;               
+    }
+    ul{
+        height: 25rem;
+        display: flex;
+        justify-content:space-evenly;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .logo{        
+        width: 21.25rem;
+        height: 8.75rem;
+        border-radius: 20px;
+        background-color: aquamarine;     
+        
+    }
+    .home{
+        display: flex;
+        width: 12.3rem;
+        height: 5.12rem;
+        border-radius: 20px;
+        background-color: aquamarine;
+        align-items: center;
+        justify-content: center;
+    }
+    .curiosidades1{
+        display: flex;
+        width: 12.3rem;
+        height: 5.12rem;
+        border-radius: 20px;
+        background-color: aquamarine;
+        align-items: center;
+        justify-content: center;
+    }
+    .videos{
+        display: flex;
+        width: 12.3rem;
+        height: 5.12rem;
+        border-radius: 20px;
+        background-color: aquamarine;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .curi h2{
+        font-size: 20px;
+        line-height: 37.5px;
+        justify-content: center;
+        margin-top: 1.7rem;
+        
+    }
+    .curi{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    ol{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .curiosidade1{
+        width: 335px;
+        height: 534px;
+        align-items: center;
+        background-color: aquamarine;
+        border-radius: 20px;
+        justify-content: flex-start;
+        margin-bottom: 37px;
+        margin-top: 31px;
+
+    }
+    .curiosidade2{
+        width: 335px;
+        height: 534px;
+        align-items: center;
+        background-color: aquamarine;
+        border-radius: 20px;
+        justify-content: flex-start;
+        margin-bottom: 37px ;
+    }
+    .curiosidade3{
+        width: 335px;
+        height: 534px;
+        align-items: center;
+        background-color: aquamarine;
+        border-radius: 20px;
+        justify-content: flex-start;
+
+    }
+  
+
+
+
 }
