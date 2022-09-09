@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,600;1,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600&display=swap');
 
 *{
     margin: 0px;
@@ -50,6 +51,9 @@ a{
 }
 .videos{
     margin-right:35px;
+}
+iframe{
+    border-radius: 10px;
 }
 h1{
     margin-right:17px;
@@ -144,6 +148,11 @@ ul li{
     font-size: 2rem;
 }
 
+.curi{
+height: 100%;
+width: 100vw;
+}
+
 .curi h1{
     display: flex;
     font-family:"Playfair Display";
@@ -151,7 +160,7 @@ ul li{
     align-items: center;
     justify-content: center;
     margin-top: 74px;
-    margin-bottom: 74px;
+    margin-bottom: 10px;
 }
 ol{
     display: flex;
@@ -160,22 +169,24 @@ ol{
 
 .curiosidade1{
     display: flex;
-    width: 351px;
-    height: 525px;    
-    margin-top: 48px;
+    width: 360px;
+    height: 82vh;
+    margin-top: 28px;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    transition:.5s;
+    transition: .5s;
+    background-color:#ffffff;
+    flex-wrap: nowrap;
+    padding: 25px;
+    border-radius: 15.3407px;
     
 }
 .cacho{
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    
-   
-    
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;  
+       
 }
 .texto{
     display: flex;
@@ -184,16 +195,17 @@ ol{
     align-items: center;
 }
 .texto h2{
-    font-size: 32px;
+    font-size: 22px;
     align-items: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
     
 }
 .texto p{
     font-size: 12px;
     align-items: center;
-    text-align: center;
+    text-align: justify;
 }
 
 
@@ -205,30 +217,37 @@ ol{
 
 .curiosidade2{
     display: flex;
-    width: 351px;
-    height: 525px;    
-    margin-top: 48px;
+    width: 360px;
+    height: 82vh;
+    margin-top: 28px;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    text-align: center;
-    transition:.5s;
+    transition: .5s;
+    background-color:#ffffff;
+    flex-wrap: nowrap;
+    padding: 25px;
+    border-radius: 15.3407px;
     
 }
 
 .curiosidade2:hover{
     transform: scale(1.2);
-    
+
 }
 .curiosidade3{
     display: flex;
-    width: 351px;
-    height: 525px;    
-    margin-top: 48px;
+    width: 360px;
+    height: 82vh;
+    margin-top: 28px;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    transition:.5s;
+    transition: .5s;
+    background-color:#ffffff;
+    flex-wrap: nowrap;
+    padding: 25px;
+    border-radius: 15.3407px;
     
 }
 .curiosidade3:hover{
