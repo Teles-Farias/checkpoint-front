@@ -45,7 +45,12 @@ header {
     width: 49px;
     height: 45px;
 }
-
+a{
+    color:#000000;
+}
+.videos{
+    margin-right:35px;
+}
 h1{
     margin-right:17px;
     margin-left:57px;
