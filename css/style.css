@@ -306,7 +306,7 @@ footer div ul li {
         list-style: none;
     }
     .tijolinhos {
-        background-image: url(/img/azulejos.png);
+        background-image: url(./img/azulejos.png);
         background-color: #fbd06e;
         background-repeat: no-repeat;
         height: 50px;
